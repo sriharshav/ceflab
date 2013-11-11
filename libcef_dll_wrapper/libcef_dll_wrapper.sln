@@ -1,0 +1,20 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "libcef_dll_wrapper", "libcef_dll_wrapper.vcxproj", "{933DF66F-34AF-424F-B3CA-FD858E07510A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{933DF66F-34AF-424F-B3CA-FD858E07510A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{933DF66F-34AF-424F-B3CA-FD858E07510A}.Debug|Win32.Build.0 = Debug|Win32
+		{933DF66F-34AF-424F-B3CA-FD858E07510A}.Release|Win32.ActiveCfg = Release|Win32
+		{933DF66F-34AF-424F-B3CA-FD858E07510A}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
