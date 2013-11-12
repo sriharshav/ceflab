@@ -28,7 +28,7 @@ Initialization needs
  - CefMainArgs
  - CefSettings 
  - CefApp
-CefMainArgs is passed just hInstance of WinMain. Only one setting [pack_loading_disabled](http://magpcss.org/ceforum/apidocs/projects/(default)/_cef_settings_t.html#pack_loading_disabled) is used. CefApp instance ClientApp is declared in `client_app.h`. It is very minimal derivation from CefApp with [reference counting](https://code.google.com/p/chromiumembedded/wiki/GeneralUsage#Reference_Counting). Creating main window is just like any windows app.  Message loop `WndProc` does main job of creating browser in `WM_CREATE` function. 
+CefMainArgs is passed just hInstance of WinMain. Only one setting [pack_loading_disabled](http://magpcss.org/ceforum/apidocs/projects/\(default\)/_cef_settings_t.html#pack_loading_disabled) is used. CefApp instance ClientApp is declared in `client_app.h`. It is very minimal derivation from CefApp with [reference counting](https://code.google.com/p/chromiumembedded/wiki/GeneralUsage#Reference_Counting). Creating main window is just like any windows app.  Message loop `WndProc` does main job of creating browser in `WM_CREATE` function. 
 
 `ClienHandler` implements CefClient interface which provides access to browser-instance-specific callbacks. These callbacks provide opportinity to integrate application specific implementation. One of three(CefLifeSpanHandler,CefRequestHandler,CefContextMenuHandler) other interfaces implemented by ClientHandler is `CefRequestHandler`. This interface provides `GetResourceHandler` method using with a request can be intercepted and handled by applicaition.
 
