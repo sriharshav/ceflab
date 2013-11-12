@@ -5,15 +5,13 @@ Experimental projects with Chromium Embedded Framework on Windows
 
 Download CEF and copy dependencies
 ==================================
-Download [Windows 32bit 2013-11-08 CEF 3.1650.1508](http://cefbuilds.com/).
-Extract and copy following folders from cef_binary_3.1650.1508_windows32 to this folder
-
-Debug
-Release
-libcef_dll
-include
-
-libcef_dll_wrapper
+1. Clone this repo.
+2. Download [Windows 32bit 2013-11-08 CEF 3.1650.1508](http://cefbuilds.com/).
+3. Extract and copy following folders to cloned folder
+  - Debug
+  - Release
+  - libcef_dll
+  - include
 
 Build libcef_dll_wrapper
 ========================
