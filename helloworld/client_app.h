@@ -2,13 +2,8 @@
 #define CEFHW_CEFCLIENT_H_
 #pragma once
 
-#include <string>
 #include "include/cef_base.h"
 #include "include/cef_app.h"
-
-class CefApp;
-class CefBrowser;
-class CefCommandLine;
 
 class ClientApp : public CefApp {
  public:
